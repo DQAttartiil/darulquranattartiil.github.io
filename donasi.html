@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donasi | Yayasan Darul Qur'an At-Tartil</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="assets/img/logo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background: linear-gradient(120deg, #bbf7d0, #a7f3d0, #f0fdfa, #fef9c3, #f3e8ff);
+      background-size: 400% 400%;
+      animation: gradientMove 15s ease infinite;
+      transition: background 0.5s;
+    }
+
+    @keyframes gradientMove {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-emerald-600 to-teal-500 text-white py-20 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4 animate-fade-in-down">Mari Berdonasi untuk Perjuangan Qur'ani
+      </h1>
+      <p class="text-lg md:text-xl mb-6">Donasi Anda sangat berarti untuk pendidikan dan keberlangsungan para santri.
+      </p>
+      <a href="#qr-donasi"
+        class="inline-block bg-white text-emerald-700 hover:bg-gray-100 px-6 py-3 rounded-full font-semibold shadow-lg transition duration-300 transform hover:scale-105">Transfer
+        Rekening BSI - 7268379047 - Yayasan Darul Qur'an At-Tartil</a>
+  </section>
+
+  <!-- Kategori Bantuan -->
+  <section class="py-16 px-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10 text-gray-800">Kategori Bantuan :</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-xl hover:-translate-y-1 transition duration-300">
+          <h3 class="text-lg font-semibold text-emerald-700 mb-2">Orang Tua Asuh</h3>
+          <p class="text-sm text-gray-600">Bantu pendidikan santri dengan menjadi orang tua asuh.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-xl hover:-translate-y-1 transition duration-300">
+          <h3 class="text-lg font-semibold text-emerald-700 mb-2">Buka Puasa Sunnah</h3>
+          <p class="text-sm text-gray-600">Salurkan sedekah untuk buka puasa sunnah santri dan pengurus.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-xl hover:-translate-y-1 transition duration-300">
+          <h3 class="text-lg font-semibold text-emerald-700 mb-2">Sedekah Operasional Pondok</h3>
+          <p class="text-sm text-gray-600">Dukung kebutuhan harian dan kegiatan pondok.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-xl hover:-translate-y-1 transition duration-300">
+          <h3 class="text-lg font-semibold text-emerald-700 mb-2">Santunan Yatim Dhuafa</h3>
+          <p class="text-sm text-gray-600">Ringankan beban saudara-saudara kita yang membutuhkan.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-xl hover:-translate-y-1 transition duration-300">
+          <h3 class="text-lg font-semibold text-emerald-700 mb-2">Waqaf Pembangunan Pondok</h3>
+          <p class="text-sm text-gray-600">Bantu pembangunan dan renovasi fasilitas pondok pesantren.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-xl hover:-translate-y-1 transition duration-300">
+          <h3 class="text-lg font-semibold text-emerald-700 mb-2">Bantuan Kemanusiaan</h3>
+          <p class="text-sm text-gray-600">Salurkan bantuan untuk korban bencana alam dan masyarakat terdampak.</p>
+        </div>
+      </div>
+
+  </section>
+
+  <!--  Donasi & Rekening -->
+
+
+  </section>
+
+  <!-- Tombol Kembali -->
+  <div class="flex justify-center mt-8">
+    <a href="index.html"
+      class="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-full shadow transition duration-300">
+      ← Kembali ke Halaman Awal
+    </a>
+  </div>
+
+
+  <!-- Animasi Background -->
+  <script>
+    const initialBg = document.body.style.background;
+    const initialAnim = document.body.style.animation;
+
+    document.addEventListener('mousemove', function (e) {
+      const x = e.clientX / window.innerWidth * 100;
+      const y = e.clientY / window.innerHeight * 100;
+      document.body.style.background = `linear-gradient(${120 + x + y}deg, #bbf7d0, #a7f3d0, #f0fdfa, #fef9c3, #f3e8ff)`;
+      document.body.style.animation = 'none';
+    });
+
+    document.addEventListener('mouseleave', function () {
+      document.body.style.background = initialBg;
+      document.body.style.animation = initialAnim;
+    });
+  </script>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6 mt-10">
+    <p>&copy; 2025 Yayasan Darul Qur'an At-Tartil. Semua Hak Dilindungi.</p>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Struktur Organisasi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+  body {
+    background: linear-gradient(120deg, #bbf7d0, #a7f3d0, #f0fdfa, #fef9c3, #f3e8ff);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+    transition: background 0.5s;
+  }
+  @keyframes gradientMove {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+</style>
+
+</head>
+
+<body class="text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-green-600 to-emerald-500 py-10 text-white text-center shadow-md">
+    <h1 class="text-3xl sm:text-4xl font-bold">Struktur Organisasi</h1>
+    <p class="text-lg mt-2">Yayasan Darul Qur'an At-Tartil</p>
+  </header>
+
+  <!-- Organigram -->
+  <main class="flex justify-center items-center py-16 px-4 overflow-x-auto">
+    <div class="flex flex-col items-center space-y-12 relative">
+
+      <!-- Ketua -->
+      <div class="group flex flex-col items-center relative">
+        <img src="assets/img/Search results for Saudi person - Flaticon.jpeg" alt="Ketua" class="w-24 h-24 rounded-full border-4 border-green-600 shadow-lg" />
+        <h2 class="mt-2 font-bold text-green-700">Ketua Yayasan</h2>
+        <h3 class="font-bold text-green-700">Ust Didik FathurRahman</h3>
+        <span class="absolute bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none top-full left-1/2 -translate-x-1/2 whitespace-nowrap mt-1">
+          Memimpin seluruh kegiatan dan kebijakan yayasan
+        </span>
+        <div class="w-1 h-10 bg-green-600 absolute top-full"></div>
+      </div>
+
+      <!-- Wakil Ketua -->
+      <div class="group flex flex-col items-center relative">
+        <img src="assets/img/Doctor icons for free download _ Freepik.jpeg" alt="Wakil Ketua" class="w-24 h-24 rounded-full border-4 border-emerald-600 shadow-lg" />
+        <h2 class="mt-2 font-bold text-emerald-700">Pembina</h2>
+        <h3 class="font-bold text-green-700">Ust Maryono A.H S.PD.I S.Q</h3>
+        <span class="absolute bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none top-full left-1/2 -translate-x-1/2 whitespace-nowrap mt-1">
+          Mendampingi dan menggantikan ketua saat dibutuhkan
+        </span>
+        <div class="w-1 h-10 bg-emerald-600 absolute top-full"></div>
+      </div>
+
+       <!-- Divisi Sosial -->
+        <div class="group flex flex-col items-center relative">
+          <img src="assets/img/Girl with half niqab 1.jpeg" alt="Sosial" class="w-24 h-24 rounded-full border-4 border-indigo-600 shadow-lg" />
+          <h2 class="mt-2 font-bold text-indigo-700 text-center">Pengawas</h2>
+          <h3 class="font-bold text-green-700">Ustdzah Evi Sugiarti S.Pd</h3>
+          <span class="absolute bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none top-full left-1/2 -translate-x-1/2 whitespace-nowrap mt-1">
+            Menangani program sosial dan masyarakat
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+      <!-- Sekretaris & Bendahara (berdampingan) -->
+      <div class="flex flex-col items-center">
+        <div class="w-1 h-6 bg-gray-400"></div>
+        <div class="flex flex-col sm:flex-row sm:space-x-12 space-y-8 sm:space-y-0">
+          <!-- Sekretaris -->
+          <div class="group flex flex-col items-center relative">
+            <img src="assets/img/Girl with half niqab 1.jpeg" alt="Sekretaris" class="w-24 h-24 rounded-full border-4 border-cyan-600 shadow-lg" />
+            <h2 class="mt-2 font-bold text-cyan-700">Sekretaris</h2>
+            <h3 class="font-bold text-green-700">Ustdzah Putri Chairunnisa azima S.Pd</h3>
+            <span class="absolute bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none top-full left-1/2 -translate-x-1/2 whitespace-nowrap mt-1">
+              Mencatat dan mengatur administrasi yayasan
+            </span>
+          </div>
+          <!-- Bendahara -->
+          <div class="group flex flex-col items-center relative">
+            <img src="assets/img/Doctor icons for free download _ Freepik.jpeg" alt="Bendahara" class="w-24 h-24 rounded-full border-4 border-lime-600 shadow-lg" />
+            <h2 class="mt-2 font-bold text-lime-700">Bendahara</h2>
+            <h3 class="font-bold text-green-700">Ust Faris Waliyudin Ramdhan S.Pd</h3>
+            <span class="absolute bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none top-full left-1/2 -translate-x-1/2 whitespace-nowrap mt-1">
+              Mengelola keuangan yayasan
+            </span>
+          </div>
+        </div>
+        <div class="w-1 h-6 bg-gray-400"></div>
+      </div>
+
+  <!-- Tombol Kembali -->
+  <div class="flex justify-center mt-8">
+    <a href="index.html" class="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-full shadow transition duration-300">
+      ← Kembali ke Halaman Awal
+    </a>
+  </div>
+
+</style>
+<script>
+  
+  // Interaktifitas Background
+  const initialBg = document.body.style.background;
+  const initialAnim = document.body.style.animation;
+
+  document.addEventListener('mousemove', function(e) {
+    const x = e.clientX / window.innerWidth * 100;
+    const y = e.clientY / window.innerHeight * 100;
+    document.body.style.background = `linear-gradient(${120 + x + y}deg, #bbf7d0, #a7f3d0, #f0fdfa, #fef9c3, #f3e8ff)`;
+    document.body.style.animation = 'none';
+  });
+
+  document.addEventListener('mouseleave', function() {
+    document.body.style.background = initialBg;
+    document.body.style.animation = initialAnim;
+  });
+</script>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-500 py-6">
+    &copy; 2025 Pondok Darul Qur'an Attartil. All rights reserved.
+  </footer>
+
+</body>
+</html>
