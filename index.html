@@ -2,698 +2,713 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>DQAt-tartil</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/logo.png" rel="icon">
-  <link href="assets/img/logo.png" rel="apple-touch-icon">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-  <link href="assets/aos/aos.css" rel="stylesheet">
-
-
-
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/aos/aos.css" rel="stylesheet">
-  <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
-  <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link href="assets/css/style.css" rel="stylesheet">
-
-
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>DQAt-tartil</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <link href="assets/img/logo.png" rel="icon">
+    <link href="assets/img/logo.png" rel="apple-touch-icon">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <link href="assets/aos/aos.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <section id="topbar" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-center justify-content-md-between">
+            <div class="contact-info d-flex align-items-center"></div>
+        </div>
+    </section>
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
+                    <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
+                    <li><a class="nav-link scrollto" href="#portfolio">Galeri</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Kontak Kami</a></li>
+                    <li><a class="nav-link scrollto" href="#donasi">Donasi</a></li>
+                    <li><a class="nav-link scrollto" href="#struktur">Struktur Organisasi</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-
-  </section>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>
-
-    <nav id="navbar" class="navbar">
-      <ul>
-        <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
-        <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
-        <li><a class="nav-link scrollto" href="#portfolio">Galeri</a></li>
-        <li><a class="nav-link scrollto" href="#contact">Kontak Kami</a></li>
-        <li><a class="nav-link scrollto" href="#donasi">Donasi</a></li>
-        <li><a class="nav-link scrollto" href="#struktur">Struktur Organisasi</a></li>
-      </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav><!-- .navbar -->
-
+    <!-- Bottom Navigation for Mobile -->
+    <div class="bottom-nav">
+        <div class="nav-item" data-target="#portfolio">
+            <div class="nav-icon">
+                <i class="fas fa-images"></i>
+            </div>
+            <span class="nav-label">Galeri</span>
+        </div>
+        <div class="nav-item" data-target="#about">
+            <div class="nav-icon">
+                <i class="fas fa-heart"></i>
+            </div>
+            <span class="nav-label">Tentang</span>
+        </div>
+        <div class="nav-item nav-center" data-target="#hero">
+            <div class="nav-icon">
+                <i class="fas fa-mosque"></i>
+            </div>
+            <span class="nav-label">Home</span>
+        </div>
+        <div class="nav-item" data-target="#donasi">
+            <div class="nav-icon">
+                <i class="fas fa-hand-holding-heart"></i>
+            </div>
+            <span class="nav-label">Donasi</span>
+        </div>
+        <div class="nav-item" data-target="#contact">
+            <div class="nav-icon">
+                <i class="fas fa-info-circle"></i>
+            </div>
+            <span class="nav-label">Info</span>
+        </div>
     </div>
-  </header><!-- End Header -->
-  <main id="main">
-    <!-- ======= Hero Section ======= -->
     <section id="hero">
-      <div class="container">
-        <h1>Selamat Datang di WEB <span>Darul Qur'an At-Tartil</span></h1>
-        <h2>Mencetak Generasi Qur’ani yang mandiri dan Rahmatan lil Aalamin</h2>
-        <a href="daftar-page.html" class="btn-get-started">Daftar Sekarang</a>
-      </div>
-    </section> <!-- End Hero -->
-
+        <div class="container">
+            <h1>Selamat Datang di <span>Pondok Tahfidz Darul Qur'an At-Tartil</span></h1>
+            <h2>Mencetak Generasi Qur'ani yang Mandiri dan Rahmatan lil Alamiin</h2>
+            <a href="daftar-page.html" class="btn-get-started">Daftar Sekarang</a>
+        </div>
+    </section>
     <main id="main">
-
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about section-bg">
-        <div class="container" data-aos="fade-up">
-
-          <div class="section-title">
-            <h2>Tentang</h2>
-            <h3><span>Pondok Tahfidz Darul Qur'an At-tartil</span></h3>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-              <img src="assets/img/5.jpeg" class="img-fluid" alt="">
-            </div>
-            <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
-              data-aos-delay="100">
-              <h3>Ust Maryono A.H S.PD.I S.Q</h3>
-              <p class="fst-italic">
-                Pengasuh Pondok Tahfidz Darul Qur'an At-Tartil.
-              </p>
-              <h3>بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ.</h3>
-              <h2> اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُه</h2>
-
-              Segala puji bagi Allah Subhanahu Wa Ta’ala yang telah melimpahkan rahmat dan karunia-Nya, sehingga Website
-              resmi Yayasan Darul Qur’an At-Tartil ini dapat hadir sebagai sarana informasi, komunikasi, dan silaturahmi
-              bagi masyarakat luas.
-              <br>
-              Website ini dibuat untuk memperkenalkan program-program keislaman, pendidikan, dan sosial yang kami
-              jalankan dalam rangka mencetak generasi Qur’ani yang berakhlak mulia dan berilmu.
-              <br>
-              Melalui platform ini, kami juga ingin mengajak seluruh lapisan masyarakat untuk turut serta mendukung
-              perjuangan dakwah dan pendidikan Islam bersama kami.
-              <br>
-              Semoga keberadaan website ini dapat menjadi media dakwah yang bermanfaat dan menjadi jembatan bagi para
-              donatur, wali santri, simpatisan, serta masyarakat umum yang ingin mengenal lebih dekat Yayasan Darul
-              Qur’an At-Tartil.
-              <br>
-              Kami ucapkan terima kasih atas dukungan, doa, dan partisipasi semua pihak.
-              <br>
-              <h2> وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h2>
-              <br>
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-      </section><!-- End About Section -->
-
-      <!-- ======= Counts Section ======= -->
-      <section id="counts" class="counts">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title text-center">
-            <h2>JUMLAH SANTRI & PENGASUH</h2>
-            <h3><span>DARUL QUR'AN AT-TARTIL</span></h3>
-          </div>
-
-          <div class="row justify-content-center g-4">
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 d-flex">
-              <div class="count-box w-100 text-center">
-                <i class="bi bi-people"></i>
-                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-                  class="purecounter"></span>
-                <p>Santri Ikhwan</p>
-              </div>
-            </div>
-
-            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 d-flex">
-              <div class="count-box w-100 text-center">
-                <i class="bi bi-people"></i>
-                <span data-purecounter-start="0" data-purecounter-end="13" data-purecounter-duration="1"
-                  class="purecounter"></span>
-                <p>Santri Akhwat</p>
-              </div>
-            </div>
-
-            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 d-flex">
-              <div class="count-box w-100 text-center">
-                <i class="bi bi-people"></i>
-                <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1"
-                  class="purecounter"></span>
-                <p>Santri Asuh</p>
-              </div>
-            </div>
-
-            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 d-flex">
-              <div class="count-box w-100 text-center">
-                <i class="bi bi-people"></i>
-                <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
-                  class="purecounter"></span>
-                <p>Pengajar</p>
-              </div>
-            </div>
-
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 d-flex">
-              <div class="count-box w-100 text-center">
-                <i class="bi bi-people"></i>
-                <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
-                  class="purecounter"></span>
-                <p>Musyrif</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Counts Section -->
-
-
-
-      <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio">
-        <div class="container" data-aos="fade-up">
-
-          <div class="section-title">
-            <h2>Galeri Foto</h2>
-            <h3><span>Kegiatan</span></h3>
-          </div>
-
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <img src="assets/img/1.jpeg" class="img-fluid" alt="Kegiatan Tahfidz">
-                <div class="portfolio-info">
-                  <h4>Yuk Menghafal Al Qur'an</h4>
-                  <p>Kegiatan hafalan harian santri</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                      title="Yuk Menghafal Al Qur'an"><i class="bx bx-plus"></i></a>
-                  </div>
+        <section id="about" class="about section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Tentang</h2>
+                    <h3><span>Pondok Tahfidz Darul Qur'an At-tartil</span></h3>
                 </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <img src="assets/img/2.jpeg" class="img-fluid" alt="Kegiatan Pondok">
-                <div class="portfolio-info">
-                  <h4>Kegiatan Pembelajaran</h4>
-                  <p>Suasana pembelajaran di pondok</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                      title="Kegiatan Pembelajaran"><i class="bx bx-plus"></i></a>
-                  </div>
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                        <img src="assets/img/5.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
+                        data-aos="fade-up" data-aos-delay="100">
+                        <h3>Ust Maryono A.H S.PD.I S.Q</h3>
+                        <p class="fst-italic">Pengasuh Pondok Tahfidz Darul Qur'an At-Tartil.</p>
+                        <h3>بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ.</h3>
+                        <h2>اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُه</h2>
+                        <p>Segala puji bagi Allah Subhanahu Wa Ta’ala yang telah melimpahkan rahmat dan karunia-Nya,
+                            sehingga Website resmi Yayasan Darul Qur’an At-Tartil ini dapat hadir sebagai sarana
+                            informasi, komunikasi, dan silaturahmi bagi masyarakat luas.<br><br>Website ini dibuat untuk
+                            memperkenalkan program-program keislaman, pendidikan, dan sosial yang kami jalankan dalam
+                            rangka mencetak generasi Qur’ani yang berakhlak mulia dan berilmu.<br><br>Melalui platform
+                            ini, kami juga ingin mengajak seluruh lapisan masyarakat untuk turut serta mendukung
+                            perjuangan dakwah dan pendidikan Islam bersama kami.<br><br>Semoga keberadaan website ini
+                            dapat menjadi media dakwah yang bermanfaat dan menjadi jembatan bagi para donatur, wali
+                            santri, simpatisan, serta masyarakat umum yang ingin mengenal lebih dekat Yayasan Darul
+                            Qur’an At-Tartil.<br><br>Kami ucapkan terima kasih atas dukungan, doa, dan partisipasi semua
+                            pihak.<br><br>
+                        <h2>وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h2>
+                        </p>
+                    </div>
                 </div>
-              </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <img src="assets/img/3.jpeg" class="img-fluid" alt="Kegiatan Santri">
-                <div class="portfolio-info">
-                  <h4>Aktivitas Santri</h4>
-                  <p>Kegiatan harian para santri</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/3.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                      title="Aktivitas Santri"><i class="bx bx-plus"></i></a>
-                  </div>
+        </section>
+        <section id="counts" class="counts">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title text-center">
+                    <h2>Statistik Pondok</h2>
+                    <h3><span>Jumlah Santri & Pengasuh</span></h3>
+                    <p>Data terkini Pondok Tahfidz Darul Qur'an At-Tartil</p>
                 </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <img src="assets/img/4.jpeg" class="img-fluid" alt="Kegiatan Belajar">
-                <div class="portfolio-info">
-                  <h4>Sesi Pembelajaran</h4>
-                  <p>Pembelajaran Al-Qur'an dan ilmu agama</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/4.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                      title="Sesi Pembelajaran"><i class="bx bx-plus"></i></a>
-                  </div>
+                <div class="row justify-content-center g-4">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 d-flex">
+                        <div class="count-box w-100 text-center">
+                            <i class="bi bi-people"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Santri Ikhwan</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 d-flex">
+                        <div class="count-box w-100 text-center">
+                            <i class="bi bi-people"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="13" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Santri Akhwat</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 d-flex">
+                        <div class="count-box w-100 text-center">
+                            <i class="bi bi-people"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Santri Asuh</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 d-flex">
+                        <div class="count-box w-100 text-center">
+                            <i class="bi bi-people"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Pengajar</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 d-flex">
+                        <div class="count-box w-100 text-center">
+                            <i class="bi bi-people"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Musyrif</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <img src="assets/img/5.jpeg" class="img-fluid" alt="Kegiatan Mengaji">
-                <div class="portfolio-info">
-                  <h4>Pengasuh Pondok</h4>
-                  <p>Ust Maryono dalam kegiatan mengajar</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/5.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                      title="Pengasuh Pondok"><i class="bx bx-plus"></i></a>
-                  </div>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Galeri Foto</h2>
+                    <h3><span>Kegiatan</span></h3>
                 </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <img src="assets/img/6.jpeg" class="img-fluid" alt="Kegiatan Pondok">
-                <div class="portfolio-info">
-                  <h4>Kegiatan Rutin</h4>
-                  <p>Aktivitas rutin di pondok tahfidz</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/6.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                      title="Kegiatan Rutin"><i class="bx bx-plus"></i></a>
-                  </div>
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/1.jpeg" class="img-fluid" alt="Kegiatan Tahfidz">
+                            <div class="portfolio-info">
+                                <h4>Yuk Menghafal Al Qur'an</h4>
+                                <p>Kegiatan hafalan harian santri</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/1.jpeg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Yuk Menghafal Al Qur'an"><i
+                                            class="bx bx-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/2.jpeg" class="img-fluid" alt="Kegiatan Pondok">
+                            <div class="portfolio-info">
+                                <h4>Kegiatan Pembelajaran</h4>
+                                <p>Suasana pembelajaran di pondok</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/2.jpeg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Kegiatan Pembelajaran"><i
+                                            class="bx bx-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/3.jpeg" class="img-fluid" alt="Kegiatan Santri">
+                            <div class="portfolio-info">
+                                <h4>Aktivitas Santri</h4>
+                                <p>Kegiatan harian para santri</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/3.jpeg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Aktivitas Santri"><i
+                                            class="bx bx-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/4.jpeg" class="img-fluid" alt="Kegiatan Belajar">
+                            <div class="portfolio-info">
+                                <h4>Sesi Pembelajaran</h4>
+                                <p>Pembelajaran Al-Qur'an dan ilmu agama</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/4.jpeg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Sesi Pembelajaran"><i
+                                            class="bx bx-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/5.jpeg" class="img-fluid" alt="Kegiatan Mengaji">
+                            <div class="portfolio-info">
+                                <h4>Pengasuh Pondok</h4>
+                                <p>Ust Maryono dalam kegiatan mengajar</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/5.jpeg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Pengasuh Pondok"><i
+                                            class="bx bx-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/6.jpeg" class="img-fluid" alt="Kegiatan Pondok">
+                            <div class="portfolio-info">
+                                <h4>Kegiatan Rutin</h4>
+                                <p>Aktivitas rutin di pondok tahfidz</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/6.jpeg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Kegiatan Rutin"><i class="bx bx-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/7.jpeg" class="img-fluid" alt="Santri Belajar">
+                            <div class="portfolio-info">
+                                <h4>Santri Menghafal</h4>
+                                <p>Para santri sedang menghafal Al-Qur'an</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/7.jpeg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Santri Menghafal"><i
+                                            class="bx bx-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/8.jpeg" class="img-fluid" alt="Kegiatan Pembelajaran">
+                            <div class="portfolio-info">
+                                <h4>Pembelajaran Intensif</h4>
+                                <p>Kegiatan pembelajaran yang intensif</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/8.jpeg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Pembelajaran Intensif"><i
+                                            class="bx bx-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/9.jpeg" class="img-fluid" alt="Aktivitas Harian">
+                            <div class="portfolio-info">
+                                <h4>Aktivitas Harian</h4>
+                                <p>Suasana aktivitas harian di pondok</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/9.jpeg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Aktivitas Harian"><i
+                                            class="bx bx-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <img src="assets/img/7.jpeg" class="img-fluid" alt="Santri Belajar">
-                <div class="portfolio-info">
-                  <h4>Santri Menghafal</h4>
-                  <p>Para santri sedang menghafal Al-Qur'an</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/7.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                      title="Santri Menghafal"><i class="bx bx-plus"></i></a>
-                  </div>
+        </section>
+        <section id="dokumentasi" class="dokumentasi-section">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Media Sosial</h2>
+                    <h3><span>Informasi & Dokumentasi</span></h3>
+                    <p>Ikuti kegiatan dan perkembangan terbaru kami di media sosial</p>
                 </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <img src="assets/img/8.jpeg" class="img-fluid" alt="Kegiatan Pembelajaran">
-                <div class="portfolio-info">
-                  <h4>Pembelajaran Intensif</h4>
-                  <p>Kegiatan pembelajaran yang intensif</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/8.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                      title="Pembelajaran Intensif"><i class="bx bx-plus"></i></a>
-                  </div>
+                <div class="social-media-container">
+                    <a href="https://www.instagram.com/darul.quran.attartil?igsh=Mm0xMWk5czY5eDNr" target="_blank"
+                        class="sosmed-card instagram" data-aos="fade-up" data-aos-delay="100">
+                        <div class="sosmed-icon"><i class="fab fa-instagram"></i></div>
+                        <h4>Instagram</h4>
+                        <p>Foto & Video Kegiatan Harian</p>
+                    </a>
+                    <a href="https://www.youtube.com/@DarulQuranAt-tartiil" target="_blank" class="sosmed-card youtube"
+                        data-aos="fade-up" data-aos-delay="200">
+                        <div class="sosmed-icon"><i class="fab fa-youtube"></i></div>
+                        <h4>YouTube</h4>
+                        <p>Video Kajian & Dokumentasi</p>
+                    </a>
+                    <a href="https://wa.me/6281281738861" target="_blank" class="sosmed-card whatsapp"
+                        data-aos="fade-up" data-aos-delay="300">
+                        <div class="sosmed-icon"><i class="fab fa-whatsapp"></i></div>
+                        <h4>WhatsApp</h4>
+                        <p>Konsultasi & Informasi</p>
+                    </a>
                 </div>
-              </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <img src="assets/img/9.jpeg" class="img-fluid" alt="Aktivitas Harian">
-                <div class="portfolio-info">
-                  <h4>Aktivitas Harian</h4>
-                  <p>Suasana aktivitas harian di pondok</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/9.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                      title="Aktivitas Harian"><i class="bx bx-plus"></i></a>
-                  </div>
+        </section>
+        <section id="donasi" class="donation-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Donasi & Wakaf</h2>
+                    <h3><span>Dukung Pendidikan Hafidz & Hafidzah</span></h3>
+                    <p>Bantu pengembangan Pondok Tahfidz Darul Qur'an At-Tartil melalui program-program berikut:</p>
                 </div>
-              </div>
+                <ul>
+                    <li>Program Orang Tua Asuh</li>
+                    <li>Program Buka Puasa Sunnah</li>
+                    <li>Program Sedekah Operasional Pondok</li>
+                    <li>Program Santunan Yatim Dhuafa</li>
+                    <li>Program Waqaf Pembangunan Pondok</li>
+                </ul>
+                <a href="donasi.html" target="_blank" class="btn-donasi"><i>→</i> Donasi Sekarang</a>
             </div>
-
-          </div>
-        </div>
-      </section>
-      <!-- End Portfolio Section -->
-
-
-
-      <!-- ======= Sosial Media Dokumentasi ======= -->
-      <section id="dokumentasi" class="dokumentasi-section">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Media Sosial</h2>
-            <h3><span>Informasi & Dokumentasi</span></h3>
-            <p>Ikuti kegiatan dan perkembangan terbaru kami di media sosial</p>
-          </div>
-          <div class="social-media-container">
-            <a href="https://www.instagram.com/darul.quran.attartil?igsh=Mm0xMWk5czY5eDNr" target="_blank"
-              class="sosmed-card instagram" data-aos="fade-up" data-aos-delay="100">
-              <div class="sosmed-icon">
-                <i class="fab fa-instagram"></i>
-              </div>
-              <h4>Instagram</h4>
-              <p>Foto & Video Kegiatan Harian</p>
-            </a>
-            <a href="https://www.youtube.com/@DarulQuranAt-tartiil" target="_blank" class="sosmed-card youtube"
-              data-aos="fade-up" data-aos-delay="200">
-              <div class="sosmed-icon">
-                <i class="fab fa-youtube"></i>
-              </div>
-              <h4>YouTube</h4>
-              <p>Video Kajian & Dokumentasi</p>
-            </a>
-            <a href="https://wa.me/6281281738861" target="_blank" class="sosmed-card whatsapp" data-aos="fade-up"
-              data-aos-delay="300">
-              <div class="sosmed-icon">
-                <i class="fab fa-whatsapp"></i>
-              </div>
-              <h4>WhatsApp</h4>
-              <p>Konsultasi & Informasi</p>
-            </a>
-          </div>
-        </div>
-      </section>
-      <!-- End Sosial Media Section -->
-
-      <!-- ======= Donasi Section ======= -->
-      <section id="donasi" class="donation-section">
-        <div class="container">
-          <div class="section-title">
-            <h2>Dukung Pendidikan Hafidz & Hafidzah</h2>
-            <p>Bantu pengembangan Pondok Tahfidz Darul Qur'an At-tartil .</p>
-          </div>
-          <ul>
-            <li>Program Orang Tua Asuh</li>
-            <li>Program Buka Puasa Sunnah</li>
-            <li>Program Sedekah Operasional Pondok</li>
-            <li>Program Santunan Yatim Dhuafa</li>
-            <li>Program Waqaf Pembangunan Pondok</li>
-          </ul>
-          <a href="donasi.html" target="_blank" class="btn-donasi">
-            <i>→</i> Donasi Sekarang</a>
-
-        </div>
-      </section>
-      <!-- End Donasi Section -->
-
-      <!-- ======= Frequently Asked Questions Section ======= -->
-      <section id="faq" class="faq section-bg">
-        <div class="container" data-aos="fade-up">
-
-          <div class="section-title">
-            <h2>F.A.Q</h2>
-            <h3> <span>Pertanyaan Yang Sering Diajukan ?</span></h3>
-          </div>
-
-          <div class="row justify-content-center">
-            <div class="col-xl-10">
-              <ul class="faq-list">
-
-                <li>
-                  <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">1. Apa itu Yayasan Darul Qur’an
-                    At-Tartil? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                  </div>
-                  <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                      Pondok Darul Qur’an At-Tartil adalah lembaga keislaman yang bergerak di bidang pendidikan, dakwah,
-                      dan sosial, dengan fokus utama pada pembinaan generasi Qur’ani yang hafal Al-Qur’an serta
-                      berakhlak mulia.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">2. Apa saja program yang ada
-                    pada pondok qur'an ini ? <i class="bi bi-chevron-down icon-show"></i><i
-                      class="bi bi-chevron-up icon-close"></i></div>
-                  <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                    <section class="programs">
-                      Kami menjalankan beberapa program inti, antara lain:
-                      <p>- Tahfidz Harian</p>
-                      <p>- Murojaah Pekanan</p>
-                      <p>- Munaqosyah</p>
-                      <p>- Camp Tahfidz</p>
-                      <p>- Program timur tengah melalui jalur Tahfidz</p>
-                    </section>
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">3. Siapa saja yang bisa
-                    mendaftar? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                  </div>
-                  <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                      Kami membuka pendaftaran untuk putra dan putri tingkat SD, SMP, hingga SMA/sederajat, yang
-                      memiliki niat kuat untuk menghafal Al-Qur’an dan belajar ilmu agama.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">4. Metode apa yang digunakan
-                    dalam menghafal Al-Qur’an?<i class="bi bi-chevron-down icon-show"></i><i
-                      class="bi bi-chevron-up icon-close"></i></div>
-                  <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                      Kami menggunakan metode yang bervariasi, termasuk metode talaqqi, murojaah, dan teknik pengulangan
-                      yang efektif. Setiap santri akan dibimbing sesuai dengan kemampuan dan kebutuhan masing-masing.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">5. Bagaimana dengan kegiatan
-                    harian santri?<i class="bi bi-chevron-down icon-show"></i><i
-                      class="bi bi-chevron-up icon-close"></i></div>
-                  <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                      Santri memiliki jadwal harian yang teratur: dimulai dari shalat berjamaah, murajaah, hafalan,
-                      pelajaran sekolah, kajian agama, hingga kegiatan olahraga dan keterampilan.
-                    </p>
-                  </div>
-                </li>
-
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </section><!-- End Frequently Asked Questions Section -->
-
-      <!-- ======= Visi dan Misi ======= -->
-
-      <section id="visi-misi" class="visi-misi-section">
-        <div class="container" data-aos="fade-up">
-
-          <div class="section-title">
-            <h2>Visi dan Misi</h2>
-            <h3><span>Pondok Tahfidz Darul Qur'an At-tartil</span></h3>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-3" data-aos="fade-right" data-aos-delay="100">
-
-            </div>
-            <div class="col-lg-6 pt-10 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
-              data-aos-delay="100">
-              <h3>Visi</h3>
-              <p class="fst-italic">
-                "Mencetak Generasi Qur'ani yg mandiri dan Rahmatan Lil Aalamin"
-              </p>
-
-              <h3>Misi</h3>
-              <ul>
-                <li>Mencetak generasi yang hafal Al-Quran.</li>
-                <li>Menyiapkan kader ulama dan pemimpin umat yang berpegang teguh pada Al-Quran.</li>
-                <li>Menanamkan nilai-nilai Al-Quran dalam kehidupan sehari-hari.</li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </section> <!--end ======= Visi dan Misi ======= -->
-
-      <!-- ======= Struktur Organisasi Section ======= -->
-      <section id="struktur" class="struktur-organisasi section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Struktur Organisasi</h2>
-            <h3><span>Yayasan Darul Qur'an At-Tartil</span></h3>
-          </div>
-
-          <div class="row justify-content-center">
-            <!-- Ketua Yayasan -->
-            <div class="col-lg-12 mb-4">
-              <div class="org-card ketua text-center" data-aos="fade-up">
-                <div class="photo-container">
-                  <img src="assets/img/Search results for Saudi person - Flaticon.jpeg" alt="Ketua Yayasan"
-                    class="rounded-circle">
+        </section>
+        <section id="program-unggulan" class="program-unggulan">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Program Unggulan</h2>
+                    <h3><span>Keunggulan Pondok Tahfidz Darul Qur'an At-Tartil</span></h3>
                 </div>
-                <h4>Ketua Yayasan</h4>
-                <h5>Ust Didik FathurRahman</h5>
-                <p>Memimpin seluruh kegiatan dan kebijakan yayasan</p>
-              </div>
-            </div>
-
-            <!-- Pembina -->
-            <div class="col-lg-12 mb-4">
-              <div class="org-card pembina text-center" data-aos="fade-up" data-aos-delay="100">
-                <div class="photo-container">
-                  <img src="assets/img/Doctor icons for free download _ Freepik.jpeg" alt="Pembina"
-                    class="rounded-circle">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="program-card">
+                            <div class="program-icon">
+                                <i class="fas fa-quran-quran"></i>
+                            </div>
+                            <h4>Metode Talaqqi</h4>
+                            <p>Metode pembelajaran langsung dari ustadz dengan pendekatan individual untuk setiap santri
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="program-card">
+                            <div class="program-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4>Beasiswa Timur Tengah</h4>
+                            <p>Program persiapan beasiswa ke universitas terkemuka di Timur Tengah melalui jalur tahfidz
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="program-card">
+                            <div class="program-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h4>Pembinaan Karakter</h4>
+                            <p>Pembentukan akhlak mulia dan kepribadian Islami melalui kegiatan harian yang terstruktur
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="program-card">
+                            <div class="program-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>Orang Tua Asuh</h4>
+                            <p>Program bantuan untuk santri kurang mampu melalui sistem orang tua asuh</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                        <div class="program-card">
+                            <div class="program-icon">
+                                <i class="fas fa-language"></i>
+                            </div>
+                            <h4>Bahasa Arab Intensif</h4>
+                            <p>Pembelajaran bahasa Arab intensif untuk persiapan studi lanjut ke luar negeri</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                        <div class="program-card">
+                            <div class="program-icon">
+                                <i class="fas fa-camping"></i>
+                            </div>
+                            <h4>Camp Tahfidz</h4>
+                            <p>Program intensif liburan untuk memperdalam hafalan dan pemahaman Al-Qur'an</p>
+                        </div>
+                    </div>
                 </div>
-                <h4>Pembina</h4>
-                <h5>Ust Maryono A.H S.PD.I S.Q</h5>
-                <p>Pengasuh Pondok Tahfidz dan pembina kegiatan</p>
-              </div>
             </div>
-
-            <!-- Pengawas -->
-            <div class="col-lg-12 mb-4">
-              <div class="org-card pengawas text-center" data-aos="fade-up" data-aos-delay="200">
-                <div class="photo-container">
-                  <img src="assets/img/Girl with half niqab 1.jpeg" alt="Pengawas" class="rounded-circle">
+        </section>
+        <section id="faq" class="faq section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>F.A.Q</h2>
+                    <h3><span>Pertanyaan Yang Sering Diajukan</span></h3>
+                    <p>Temukan jawaban atas pertanyaan yang sering ditanyakan tentang pondok kami</p>
                 </div>
-                <h4>Pengawas</h4>
-                <h5>Ustdzah Evi Sugiarti S.Pd</h5>
-                <p>Mengawasi dan mengevaluasi program kegiatan</p>
-              </div>
-            </div>
-
-            <!-- Sekretaris dan Bendahara -->
-            <div class="col-lg-6 mb-3">
-              <div class="org-card sekretaris text-center" data-aos="fade-right" data-aos-delay="300">
-                <div class="photo-container">
-                  <img src="assets/img/Girl with half niqab 1.jpeg" alt="Sekretaris" class="rounded-circle">
+                <div class="row justify-content-center">
+                    <div class="col-xl-10">
+                        <ul class="faq-list">
+                            <li>
+                                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">1. Apa itu Pondok
+                                    Tahfidz Darul Qur'an At-Tartil? <i class="bi bi-chevron-down icon-show"></i><i
+                                        class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                                    <p>Pondok Tahfidz Darul Qur'an At-Tartil adalah lembaga pendidikan Islam yang fokus
+                                        pada pembinaan generasi Qur'ani melalui program tahfidz (menghafal Al-Qur'an)
+                                        dengan metode yang teruji dan pengajar yang berpengalaman.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">2. Apa saja
+                                    program yang tersedia di pondok ini? <i class="bi bi-chevron-down icon-show"></i><i
+                                        class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                                    <p>Kami menjalankan beberapa program inti, antara lain:<br>• Tahfidz Harian (hafalan
+                                        Al-Qur'an setiap hari)<br>• Murojaah Pekanan (pengulangan hafalan mingguan)<br>•
+                                        Munaqosyah (ujian hafalan)<br>• Camp Tahfidz (program intensif)<br>• Program
+                                        beasiswa ke Timur Tengah melalui jalur Tahfidz</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">3. Siapa saja
+                                    yang bisa mendaftar? <i class="bi bi-chevron-down icon-show"></i><i
+                                        class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                                    <p>Kami membuka pendaftaran untuk putra dan putri tingkat SD, SMP, hingga
+                                        SMA/sederajat, yang memiliki niat kuat untuk menghafal Al-Qur’an dan belajar
+                                        ilmu agama.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">4. Metode apa
+                                    yang digunakan dalam menghafal Al-Qur'an? <i
+                                        class="bi bi-chevron-down icon-show"></i><i
+                                        class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                                    <p>Kami menggunakan metode yang telah terbukti efektif, yaitu metode Talaqqi
+                                        (belajar langsung dari ustadz), Murojaah (pengulangan berkala), dan teknik
+                                        memorisasi yang disesuaikan dengan kemampuan setiap santri untuk hasil yang
+                                        optimal. Metode ini terbukti efektif dalam membantu santri menghafal dengan
+                                        tartil dan makharijul huruf yang benar.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">5. Bagaimana
+                                    jadwal kegiatan harian santri? <i class="bi bi-chevron-down icon-show"></i><i
+                                        class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                                    <p>Santri memiliki jadwal terstruktur yang dimulai dengan shalat berjamaah,
+                                        dilanjutkan dengan sesi murojaah (04:30-06:00), hafalan baru (08:00-11:00),
+                                        pembelajaran umum (13:00-15:00), kajian keislaman (15:30-17:00), serta
+                                        kegiatan pengembangan diri seperti olahraga dan keterampilan (19:00-20:30).
+                                        Program disesuaikan dengan tingkat kemampuan santri.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">6. Berapa biaya
+                                    pendidikan di pondok ini? <i class="bi bi-chevron-down icon-show"></i><i
+                                        class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                                    <p>Pondok kami mengutamakan kemudahan akses pendidikan. Biaya sangat terjangkau dan
+                                        tersedia program beasiswa untuk santri berprestasi serta program orang tua asuh
+                                        untuk santri kurang mampu. Silakan hubungi kami untuk informasi detail.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">7. Apakah ada
+                                    program khusus untuk santri yang ingin melanjutkan ke perguruan tinggi? <i
+                                        class="bi bi-chevron-down icon-show"></i><i
+                                        class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq7" class="collapse" data-bs-parent=".faq-list">
+                                    <p>Ya, kami memiliki program persiapan untuk melanjutkan pendidikan tinggi, termasuk
+                                        bimbingan beasiswa ke Timur Tengah melalui jalur tahfidz, program intensif
+                                        bahasa
+                                        Arab, dan pembinaan akademik untuk persiapan ujian masuk perguruan tinggi.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-bs-toggle="collapse" href="#faq8" class="collapsed question">8. Bagaimana cara
+                                    mendaftar sebagai santri baru? <i class="bi bi-chevron-down icon-show"></i><i
+                                        class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq8" class="collapse" data-bs-parent=".faq-list">
+                                    <p>Pendaftaran dapat dilakukan secara online melalui website kami atau datang
+                                        langsung ke pondok. Calon santri akan melalui tes kemampuan membaca Al-Qur'an,
+                                        wawancara, dan tes kesehatan. Pendaftaran dibuka sepanjang tahun dengan kuota
+                                        terbatas.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <h4>Sekretaris</h4>
-                <h5>Ustdzah Putri Chairunnisa Azima S.Pd</h5>
-                <p>Mengatur administrasi dan dokumentasi yayasan</p>
-              </div>
             </div>
-
-            <div class="col-lg-6 mb-3">
-              <div class="org-card bendahara text-center" data-aos="fade-left" data-aos-delay="300">
-                <div class="photo-container">
-                  <img src="assets/img/Doctor icons for free download _ Freepik.jpeg" alt="Bendahara"
-                    class="rounded-circle">
+        </section>
+        <section id="visi-misi" class="visi-misi-section">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Visi dan Misi</h2>
+                    <h3><span>Pondok Tahfidz Darul Qur'an At-Tartil</span></h3>
+                    <p>Landasan dan tujuan utama dalam menjalankan misi pendidikan Islam</p>
                 </div>
-                <h4>Bendahara</h4>
-                <h5>Ust Faris Waliyudin Ramdhan S.Pd</h5>
-                <p>Mengelola keuangan dan laporan keuangan yayasan</p>
-              </div>
+                <div class="row">
+                    <div class="col-lg-3" data-aos="fade-right" data-aos-delay="100"></div>
+                    <div class="col-lg-6 pt-10 pt-lg-0 content d-flex flex-column justify-content-center"
+                        data-aos="fade-up" data-aos-delay="100">
+                        <h3>Visi</h3>
+                        <p class="fst-italic">"Mencetak Generasi Qur'ani yang Mandiri dan Rahmatan lil Alamiin"</p>
+                        <h3>Misi</h3>
+                        <ul>
+                            <li>Mencetak generasi yang hafal Al-Qur'an dengan pemahaman yang mendalam</li>
+                            <li>Menyiapkan kader ulama dan pemimpin umat yang berpegang teguh pada Al-Qur'an dan
+                                As-Sunnah</li>
+                            <li>Menanamkan nilai-nilai Al-Qur'an dalam kehidupan sehari-hari santri</li>
+                            <li>Mengembangkan karakter santri yang mandiri, berakhlak mulia, dan bermanfaat bagi
+                                masyarakat</li>
+                            <li>Membangun jaringan kerjasama dengan lembaga pendidikan dalam dan luar negeri</li>
+                            <li>Menyelenggarakan program dakwah dan pengabdian masyarakat</li>
+                        </ul>
+                        <div class="mt-4">
+                            <h3>Target & Komitmen</h3>
+                            <p>Kami berkomitmen untuk mencetak minimal 50 hafidz/hafidzah setiap tahun dengan kualitas
+                                hafalan yang terjaga, serta mempersiapkan mereka untuk melanjutkan pendidikan ke jenjang
+                                yang lebih tinggi baik di dalam maupun luar negeri.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section><!-- End Struktur Organisasi Section -->
-
-
-
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-
-          <div class="section-title">
-            <h2>Kontak</h2>
-            <h3><span>Darul Qur'an At-tartil</span></h3>
-          </div>
-
-          <div class="row" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-3">
-              <div class="info-box mb-4">
-                <i class="bx bx-map"></i>
-                <h3>Email</h3>
-                <p>darulquranattartiil@gmail</p>
-              </div>
+        </section>
+        <section id="struktur" class="struktur-organisasi section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Struktur Organisasi</h2>
+                    <h3><span>Yayasan Darul Qur'an At-Tartil</span></h3>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 mb-4">
+                        <div class="org-card ketua text-center" data-aos="fade-up">
+                            <div class="photo-container"><img
+                                    src="assets/img/Search results for Saudi person - Flaticon.jpeg" alt="Ketua Yayasan"
+                                    class="rounded-circle"></div>
+                            <h4>Ketua Yayasan</h4>
+                            <h5>Ust Didik FathurRahman</h5>
+                            <p>Memimpin seluruh kegiatan dan kebijakan yayasan</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mb-4">
+                        <div class="org-card pembina text-center" data-aos="fade-up" data-aos-delay="100">
+                            <div class="photo-container"><img
+                                    src="assets/img/Doctor icons for free download _ Freepik.jpeg" alt="Pembina"
+                                    class="rounded-circle"></div>
+                            <h4>Pembina</h4>
+                            <h5>Ust Maryono A.H S.PD.I S.Q</h5>
+                            <p>Pengasuh Pondok Tahfidz dan pembina kegiatan</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mb-4">
+                        <div class="org-card pengawas text-center" data-aos="fade-up" data-aos-delay="200">
+                            <div class="photo-container"><img src="assets/img/Girl with half niqab 1.jpeg"
+                                    alt="Pengawas" class="rounded-circle"></div>
+                            <h4>Pengawas</h4>
+                            <h5>Ustdzah Evi Sugiarti S.Pd</h5>
+                            <p>Mengawasi dan mengevaluasi program kegiatan</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <div class="org-card sekretaris text-center" data-aos="fade-right" data-aos-delay="300">
+                            <div class="photo-container"><img src="assets/img/Girl with half niqab 1.jpeg"
+                                    alt="Sekretaris" class="rounded-circle"></div>
+                            <h4>Sekretaris</h4>
+                            <h5>Ustdzah Putri Chairunnisa Azima S.Pd</h5>
+                            <p>Mengatur administrasi dan dokumentasi yayasan</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <div class="org-card bendahara text-center" data-aos="fade-left" data-aos-delay="300">
+                            <div class="photo-container"><img
+                                    src="assets/img/Doctor icons for free download _ Freepik.jpeg" alt="Bendahara"
+                                    class="rounded-circle"></div>
+                            <h4>Bendahara</h4>
+                            <h5>Ust Faris Waliyudin Ramdhan S.Pd</h5>
+                            <p>Mengelola keuangan dan laporan keuangan yayasan</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-lg-6 col-md-6">
-              <div class="info-box  mb-4">
-                <i class="bx bx-envelope"></i>
-                <h3>Alamat</h3>
-                <p>perumahan Bumi Jayakarta Pertiwi Desa No.2, Blok G1, Gandoang, Kec.Cileungsi, Kabupaten Bogor, Jawa
-                  Barat.</p>
-              </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Kontak Kami</h2>
+                    <h3><span>Hubungi Pondok Tahfidz Darul Qur'an At-Tartil</span></h3>
+                    <p>Untuk informasi lebih lanjut dan pendaftaran santri baru</p>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-3">
+                        <div class="info-box mb-4">
+                            <i class="bx bx-envelope"></i>
+                            <h3>Email</h3>
+                            <p>darulquranattartiil@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="info-box mb-4">
+                            <i class="bx bx-map"></i>
+                            <h3>Alamat</h3>
+                            <p>Perumahan Bumi Jayakarta Pertiwi Desa No.2, Blok G1, Gandoang, Kec. Cileungsi, Kabupaten
+                                Bogor, Jawa Barat</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-box mb-4">
+                            <i class="bx bx-phone-call"></i>
+                            <h3>Telepon / WhatsApp</h3>
+                            <p>+62 812-8173-8861</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-12">
+                        <iframe class="mb-4 mb-lg-0"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.155770865449!2d107.0186158!3d-6.4182404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6997001e2d1c79%3A0xa0252f9597f9adbc!2sYayasan%20Darul%20Qur&#39;an%20Attartil!5e0!3m2!1sid!2sid!4v1720102487483!5m2!1sid!2sid"
+                            frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-lg-3 col-md-6" s>
-              <div class="info-box  mb-4">
-                <i class="bx bx-phone-call"></i>
-                <h3>Telepon / WA</h3>
-                <p>+62 812-8173-8861</p>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="row" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="col-lg-12 ">
-              <iframe class="mb-4 mb-lg-0"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.155770865449!2d107.0186158!3d-6.4182404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6997001e2d1c79%3A0xa0252f9597f9adbc!2sYayasan%20Darul%20Qur&#39;an%20Attartil!5e0!3m2!1sid!2sid!4v1720102487483!5m2!1sid!2sid"
-                frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-            </div>
-
-          </div>
-
-        </div>
-      </section><!-- End Contact Section -->
-
-    </main><!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <hr>
+        </section>
+    </main>
     <footer id="footer">
-
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-lg-10 col-md-10 footer-contact">
-              <h3><span>PONDOK TAHFIDZ DARUL QUR'AN AT-TARTIL</span></h3>
-              <p>
-                Perumahan Bumi Jayakarta Pertiwi, <br>
-                Desa No.2, Blok G1, Gandoang, Kec.Cileungsi, Kabupaten Bogor, Jawa Barat. <br><br>
-                <strong>Telepon/WA:</strong> +62 812-8173-8861<br>
-                <strong>Email:</strong> darulquranattartiil@gmail.com<br>
-              </p>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3><span>PONDOK TAHFIDZ DARUL QUR'AN AT-TARTIL</span></h3>
+                        <p>Perumahan Bumi Jayakarta Pertiwi<br>Desa No.2, Blok G1, Gandoang, Kec. Cileungsi<br>Kabupaten
+                            Bogor, Jawa Barat<br><br><strong>Telepon/WhatsApp:</strong> +62
+                            812-8173-8861<br><strong>Email:</strong> darulquranattartiil@gmail.com<br></p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Program Utama</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Tahfidz Al-Qur'an</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#about">Pendidikan Karakter</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#visi-misi">Pembelajaran Umum</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#donasi">Program Beasiswa</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#contact">Camp Tahfidz</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Informasi</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#about">Tentang Kami</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#struktur">Struktur Organisasi</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#faq">FAQ</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="daftar-page.html">Pendaftaran</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kontak</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links footer-contact">
+                        <h3><span>Media Sosial</span></h3>
+                        <p>Terhubung dengan Pondok Tahfidz Darul Qur'an At-Tartil</p>
+                        <div class="social-links mt-3">
+                            <a href="https://m.youtube.com/@darulquranat-tartiil?fbclid=PAQ0xDSwLFsV5leHRuA2FlbQIxMAABpz94CznYBDDSjAguVcgwKPDFxhtuHc0_Gk6XHiZ6WEXfDFLkNGeEMmUdoD2z_aem_gYLYeUOpUCPy1NBG91gsXg"
+                                target="_blank" class="youtube"><i class="bx bxl-youtube"></i></a>
+                            <a href="https://www.instagram.com/darul.quran.attartil?igsh=Mm0xMWk5czY5eDNr"
+                                target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a href="https://wa.me/+6281281738861" target="_blank" class="whatsapp"><i
+                                    class="bx bxl-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 footer-links">
-
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-links">
-
-            </div>
-
-
-            <div class="col-lg-10 col-md-10 footer-links footer-contact">
-              <h3><span>Media Sosial</span></h3>
-              <p>Terhubung dengan Pondok Tahfidz Qur’an Darul At-taril</p>
-              <div class="social-links mt-3">
-                <a href="https://m.youtube.com/@darulquranat-tartiil?fbclid=PAQ0xDSwLFsV5leHRuA2FlbQIxMAABpz94CznYBDDSjAguVcgwKPDFxhtuHc0_Gk6XHiZ6WEXfDFLkNGeEMmUdoD2z_aem_gYLYeUOpUCPy1NBG91gsXg"
-                  class="youtube"><i class="bx bxl-youtube"></i></a>
-                <a href="https://www.instagram.com/darul.quran.attartil?igsh=Mm0xMWk5czY5eDNr" class="instagram"><i
-                    class="bx bxl-instagram"></i></a>
-                <a href="https://wa.me/+6281281738861" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
-              </div>
-            </div>
-
-          </div>
         </div>
-      </div>
-
-      <div class="container py-5">
-        <div class="copyright">
-          &copy; 2025 Copyright <strong><span>Pondok Tahfidz Darul Qur'an At-Tartil</span></strong>. All Rights Reserved
-          | site by <a href="https://www.instagram.com/ridwan16dec95?igsh=MXV0N2phd2IzMTVuMA==" target="_blank">Ridwan
-            Saputra.</a>
+        <div class="container py-5">
+            <div class="copyright">&copy; 2025 Copyright <strong><span>Pondok Tahfidz Darul Qur'an
+                        At-Tartil</span></strong>. All Rights Reserved | site by <a
+                    href="https://www.instagram.com/ridwan16dec95?igsh=MXV0N2phd2IzMTVuMA==" target="_blank">Ridwan
+                    Saputra.</a></div>
         </div>
-      </div>
-    </footer><!-- End Footer -->
-
+    </footer>
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
-
-    <!-- Vendor JS Files -->
+            class="bi bi-arrow-up-short"></i></a>
     <script src="assets/purecounter/purecounter.js"></script>
     <script src="assets/aos/aos.js"></script>
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -702,27 +717,71 @@
     <script src="assets/swiper/swiper-bundle.min.js"></script>
     <script src="assets/waypoints/noframework.waypoints.js"></script>
     <script src="assets/php-email-form/validate.js"></script>
-
-    <!-- Inisialisasi Library -->
-    <script>
-      AOS.init();
-    </script>
-
-    <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-
-    <!-- FontAwesome -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
-
-    <!-- Floating Action Button Aktif -->
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const fabContainer = document.querySelector('.fab-container');
-        if (fabContainer) fabContainer.classList.add('active');
-      });
+        AOS.init();
+
+        // Bottom Navigation Controller
+        document.addEventListener('DOMContentLoaded', function () {
+            const navItems = document.querySelectorAll('.nav-item');
+            const sections = document.querySelectorAll('section[id]');
+
+            // Bottom nav click handler
+            navItems.forEach(item => {
+                item.addEventListener('click', function () {
+                    const target = this.getAttribute('data-target');
+
+                    // Remove active class from all items
+                    navItems.forEach(nav => nav.classList.remove('active'));
+
+                    // Add active class to clicked item
+                    this.classList.add('active');
+
+                    // Smooth scroll to target section
+                    if (target) {
+                        const targetSection = document.querySelector(target);
+                        if (targetSection) {
+                            const headerOffset = 80;
+                            const elementPosition = targetSection.offsetTop;
+                            const offsetPosition = elementPosition - headerOffset;
+
+                            window.scrollTo({
+                                top: offsetPosition,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                });
+            });
+
+            // Update active nav on scroll
+            function updateActiveNav() {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= sectionTop - 200) {
+                        current = '#' + section.getAttribute('id');
+                    }
+                });
+
+                navItems.forEach(item => {
+                    item.classList.remove('active');
+                    if (item.getAttribute('data-target') === current) {
+                        item.classList.add('active');
+                    }
+                });
+            }
+
+            // Set first item as active initially
+            if (navItems.length > 0) {
+                navItems[0].classList.add('active');
+            }
+
+            window.addEventListener('scroll', updateActiveNav);
+        });
     </script>
-
-
 </body>
 
 </html>
